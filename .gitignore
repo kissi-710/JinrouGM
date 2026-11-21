@@ -1,0 +1,5 @@
+WARNINGS.md
+__pycache__/
+.venv/
+.pytest_cache/
+.claude/settings.local.json
