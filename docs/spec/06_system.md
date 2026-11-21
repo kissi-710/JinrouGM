@@ -1,7 +1,7 @@
 # 06 システム構成・非機能要件
 
 ## 1. 実装言語とライブラリ
-- **Python**(3.12 以上)。設計書 §6 は TypeScript だが、CLAUDE.md の「言語は Python。テストは pytest」に合わせた。〔仮決定 U-46〕
+- **Python**(3.12 以上)。設計書 §6 は TypeScript だが、CLAUDE.md の「言語は Python。テストは pytest」に合わせた。〔決定 U-46:2026-11-21 ユーザー確認済み〕
   - Discord:`discord.py`
   - MCP:公式 Python SDK(`mcp`)
   - 永続化:標準ライブラリ `sqlite3`
