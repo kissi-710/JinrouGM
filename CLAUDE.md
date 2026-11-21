@@ -19,5 +19,9 @@
 - 言語はPython。テストはpytest(`tests/`配下)。
 - `.claude/hooks/`のフックが、main直書きの阻止、停止前のテスト実行、複雑さ解析(`WARNINGS.md`に出力)を自動で行う。作業終了時に`WARNINGS.md`があれば確認し、報告に含める。
 
+## レビューとIssue
+- レビューは`docs/review/`に`YYYY-MM-DD_<対象>.md`として、`docs/review/_template.md`の書式で残す。
+- 対応が必要な指摘は、`.github/ISSUE_TEMPLATE/`の書式に沿った内容でIssue化する。GitHubへの送信は外部への公開になるため、内容をユーザーに見せて確認を取ってから行う。
+
 ## 環境構築
 特に制限はありません。windowsであることなど、機器制約以外はないと思うので、好きに構築してください。
